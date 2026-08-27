@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>FINVEST Private Equity</title>
+<style>
+html, body {
+  margin: 0;
+  min-height: 100%;
+  background: #061f18;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: Georgia, "Times New Roman", serif;
+}
+.card {
+  position: relative;
+  width: min(100vw, 961px);
+  line-height: 0;
+  user-select: none;
+}
+.card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.hotspots {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.hotspots a {
+  pointer-events: all;
+  cursor: pointer;
+}
+.hotspots text {
+  font-family: Georgia, "Times New Roman", serif;
+  fill: #eee5cf;
+}
+</style>
+</head>
+<body>
+<main class="card" aria-label="FINVEST Private Equity">
+  <img src="finvest-page-1.png" alt="FINVEST Private Equity">
+  <svg class="hotspots" viewBox="0 0 961 1657" preserveAspectRatio="xMidYMid meet" aria-hidden="false">
+    <!-- Телефон: большая кликабельная зона поверх номера -->
+    <a href="tel:+79582470022" aria-label="Позвонить +7 958 247 00 22">
+      <rect x="155" y="1482" width="315" height="82" fill="transparent"/>
+    </a>
+
+    <!-- Закрываем старый адрес finfestresulting.ru и показываем новый -->
+    <rect x="574" y="1493" width="300" height="55" rx="3" fill="#08291f"/>
+    <a href="https://finvestresulting.ru" target="_blank" rel="noopener noreferrer"
+       aria-label="Открыть сайт finvestresulting.ru">
+      <rect x="565" y="1480" width="335" height="86" fill="transparent"/>
+      <text x="586" y="1530" font-size="24">finvestresulting.ru</text>
+    </a>
+  </svg>
+</main>
+</body>
+</html>
